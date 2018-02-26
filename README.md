@@ -1,0 +1,2 @@
+# iPhoneXHiddenHomeIndicator
+使用官方API边缘保护来隐藏游戏或特殊应用中Home指示条
