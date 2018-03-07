@@ -16,19 +16,20 @@ class ViewController: UIViewController {
      * This will give the indicator a more subtle appearance and change it's behavior so that two swipes are required to exit your app.
      * 这将给一个更微妙的外观和指标，改变退出你的应用行为需要操作两次。
      */
-    override func preferredScreenEdgesDeferringSystemGestures() -> UIRectEdge {
-        return [.bottom, .top] // .bottom for protecting home indicator, .top for protecting control center
-    }
+    
+//    override func preferredScreenEdgesDeferringSystemGestures() -> UIRectEdge {
+//        return [.bottom, .top] // .bottom for protecting home indicator, .top for protecting control center
+//    }
 
     /*
      * If you want to use edge protection to lock the home indicator, do not use home indicator auto-hiding.These two do not work together.
-     * 如果你想使用边缘保护锁定指示器,不使用指标自动隐藏。这两个不能一起工作。
+     * 如果你想使用边缘保护锁定指示器,使用指标自动隐藏。这两个不能一起工作。
      */
-    /*
+    
     override func prefersHomeIndicatorAutoHidden() -> Bool {
         return true
     }
-    */
+    
 }
 
 /*

@@ -20,17 +20,24 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pq6-cc-Jkb">
                                 <rect key="frame" x="0.0" y="20" width="375" height="647"/>
-                                <mutableString key="text">Wait a second to lock the home indicator.
+                                <string key="text">Wait a second to lock the home indicator.
 等一下锁定指示器。
 Two swipes are required to exit your app. 需要退出你的应用，请操作两次。 Two swipes to open the control center. 打开控制中心，请操作两次。
-Tapping a control has the same result whether or not it's behind the indicator.无论是否在指示器后面，轻击控件都会得到相同的结果。</mutableString>
+Tapping a control has the same result whether or not it's behind the indicator.无论是否在指示器后面，轻击控件都会得到相同的结果。</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iUe-9t-hVB">
-                                <rect key="frame" x="163" y="636" width="51" height="31"/>
+                                <rect key="frame" x="163" y="586" width="51" height="31"/>
                             </switch>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZSx-G3-Bpu">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="Ejc-8G-Xne"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -38,8 +45,11 @@ Tapping a control has the same result whether or not it's behind the indicator.�
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pq6-cc-Jkb" secondAttribute="trailing" id="KJa-Qx-qOs"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="pq6-cc-Jkb" secondAttribute="top" id="MhQ-GG-g1S"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="pq6-cc-Jkb" secondAttribute="leading" id="WEM-EE-hNG"/>
-                            <constraint firstItem="iUe-9t-hVB" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="jnj-xu-ytF"/>
+                            <constraint firstItem="ZSx-G3-Bpu" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="gEE-h6-gWa"/>
+                            <constraint firstItem="iUe-9t-hVB" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" constant="-50" id="jnj-xu-ytF"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="pq6-cc-Jkb" secondAttribute="bottom" id="pD6-7V-xeT"/>
+                            <constraint firstItem="ZSx-G3-Bpu" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="riZ-pp-W7p"/>
+                            <constraint firstItem="ZSx-G3-Bpu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="z6b-k9-hfc"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
