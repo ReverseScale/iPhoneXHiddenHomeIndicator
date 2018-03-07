@@ -6,7 +6,7 @@
 #### iPhone X Lock Home Indicator
 这是演示如何使用边缘保护的官方API来锁定游戏和特殊应用的主页指示符的示例。
 
-![](http://github.com/ReverseScale/iPhoneXHiddenHomeIndicator/raw/master/Hidden.gif)
+![](http://og1yl0w9z.bkt.clouddn.com/18-3-7/72469783.jpg)
 
 ```Swift
     /*
@@ -18,8 +18,12 @@
     override func preferredScreenEdgesDeferringSystemGestures() -> UIRectEdge {
         return [.bottom, .top] // .bottom for protecting home indicator, .top for protecting control center
     }
+```
 
-    /*
+![](http://og1yl0w9z.bkt.clouddn.com/18-3-7/82007004.jpg)
+
+```Swift
+/*
      * If you want to use edge protection to lock the home indicator, do not use home indicator auto-hiding.These two do not work together.
      * 如果你想使用边缘保护锁定指示器,不使用指标自动隐藏。这两个不能一起工作。
      */
