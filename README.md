@@ -6,6 +6,8 @@
 #### iPhone X Lock Home Indicator
 这是演示如何使用边缘保护的官方API来锁定游戏和特殊应用的主页指示符的示例。
 
+![http://github.com/ReverseScale/iPhoneXHiddenHomeIndicator/raw/master/Hidden.gif]()
+
 ```Swift
     /*
      * Turn on edge protection for the bottom edge of the display.
