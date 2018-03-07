@@ -9,9 +9,11 @@ Use official API Edge Protection to hide the Home bar in games or special applic
 
 这是演示如何使用边缘保护的官方API来锁定游戏和特殊应用的主页指示符的示例。
 
-<1>弱化 Home 指示条演示及代码
 
 <1> Weakened Home Bar Demo and Code
+
+<1>弱化 Home 指示条演示及代码
+
 
 ![](http://og1yl0w9z.bkt.clouddn.com/18-3-7/72469783.jpg)
 
@@ -27,9 +29,10 @@ Use official API Edge Protection to hide the Home bar in games or special applic
     }
 ```
 
+<2> Hide Home Bar Presentation and Code
+
 <2>隐藏 Home 指示条演示及代码
 
-<2> Hide Home Bar Presentation and Code
 
 ![](http://og1yl0w9z.bkt.clouddn.com/18-3-7/82007004.jpg)
 
@@ -49,6 +52,7 @@ Use official API Edge Protection to hide the Home bar in games or special applic
 Url 链接：https://developer.apple.com/ios/update-apps-for-iphone-x/
 
 Displays on iPhone X use screen edge gestures to provide access to the home screen, application switchers, notification centers, and control centers. Avoid interference with these gestures. Move the control to a safe area and adjust your UI. In rare cases, you might consider using edge protection where the first swipe calls an application-specific gesture and the second swipe calls a system gesture.
+
 iPhone X上的显示器使用屏幕边缘手势提供对主屏幕，应用程序切换器，通知中心和控制中心的访问。避免干扰这些手势。将控件移到安全区域并调整您的UI。在极少数情况下，您可能会考虑使用边缘保护，其中第一次刷卡会调用特定于应用程序的手势，而第二次刷卡会调用系统手势。
 
 #### Design for iPhone X 为iPhone X设计
