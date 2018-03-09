@@ -32,11 +32,9 @@ Use official API Edge Protection to hide the Home bar in games or special applic
     /*
      * If you want to use edge protection to lock the home indicator, do not use home indicator auto-hiding.These two do not work together.
      */
-    /*
     override func prefersHomeIndicatorAutoHidden() -> Bool {
         return true
     }
-    */
 ```
 
 #### IPhone X update application 
@@ -89,12 +87,10 @@ For example, tapping on a cell in a table row will result in the same whether it
 ```Swift
     /*
      * 如果你想使用边缘保护锁定指示器,不使用指标自动隐藏。这两个不能一起工作。
-     *
      */
     override func prefersHomeIndicatorAutoHidden() -> Bool {
         return true
     }
-    */
 ```
 
 #### 更新 iPhone X 的应用程序
