@@ -1,7 +1,12 @@
 # iPhoneXHiddenHomeIndicator
+
+Use official API Edge Protection to hide the Home bar in games or special applications.
+
 使用官方API边缘保护来隐藏游戏或特殊应用中 Home 指示条。
 
 翻译自《iPhoneX-Lock-Home-Indicator》（https://github.com/frogcjn/iPhoneX-Lock-Home-Indicator）
+
+Translated from "iPhoneX-Lock-Home-Indicator" (https://github.com/frogcjn/iPhoneX-Lock-Home-Indicator)
 
 #### iPhone X Lock Home Indicator
 
