@@ -1,5 +1,7 @@
 # iPhoneXHiddenHomeIndicator
 
+[EN](#Requirements) | [中文](#中文说明)
+
 Use official API Edge Protection to hide the Home bar in games or special applications.
 
 使用官方API边缘保护来隐藏游戏或特殊应用中 Home 指示条。
@@ -80,3 +82,4 @@ Unlike sliding, clicking the bottom edge of the display will only affect your ap
 For example, tapping on a cell in a table row will result in the same whether it is behind a pointer or not.
 
 例如，轻击表格行单元格的结果是否相同，无论它是否位于指示器后面。
+
