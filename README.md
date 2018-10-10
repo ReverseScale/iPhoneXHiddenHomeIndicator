@@ -1,6 +1,7 @@
 # iPhoneXHiddenHomeIndicator
 
-[EN](#Requirements) | [中文](#中文说明)
+
+[EN](https://github.com/ReverseScale/iPhoneXHiddenHomeIndicator) | [中文](https://github.com/ReverseScale/iPhoneXHiddenHomeIndicator/blob/master/README_zh.md)
 
 Use official API Edge Protection to hide the Home bar in games or special applications.
 
