@@ -27,7 +27,7 @@ Use official API Edge Protection to hide the Home bar in games or special applic
 
 <2> Hide Home Bar Presentation and Code
 
-![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/13261417.jpg)
+![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/44675031.jpg)
 
 ```Swift
     /*
