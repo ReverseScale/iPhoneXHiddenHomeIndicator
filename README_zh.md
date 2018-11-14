@@ -13,7 +13,7 @@
 
 <1>弱化 Home 指示条演示及代码
 
-![](http://og1yl0w9z.bkt.clouddn.com/18-3-7/72469783.jpg)
+![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/18425611.jpg)
 
 ```Swift
     /*
@@ -27,7 +27,7 @@
 
 <2>隐藏 Home 指示条演示及代码
 
-![](http://og1yl0w9z.bkt.clouddn.com/18-3-7/82007004.jpg)
+![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/44675031.jpg)
 
 ```Swift
     /*
