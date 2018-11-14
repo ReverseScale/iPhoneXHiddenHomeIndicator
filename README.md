@@ -13,7 +13,7 @@ Use official API Edge Protection to hide the Home bar in games or special applic
 
 <1> Weakened Home Bar Demo and Code
 
-![](http://og1yl0w9z.bkt.clouddn.com/18-3-7/72469783.jpg)
+![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/39432050.jpg)
 
 ```Swift
     /*
@@ -27,7 +27,7 @@ Use official API Edge Protection to hide the Home bar in games or special applic
 
 <2> Hide Home Bar Presentation and Code
 
-![](http://og1yl0w9z.bkt.clouddn.com/18-3-7/82007004.jpg)
+![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/13261417.jpg)
 
 ```Swift
     /*
