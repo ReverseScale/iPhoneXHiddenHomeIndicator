@@ -13,7 +13,7 @@
 
 <1>弱化 Home 指示条演示及代码
 
-![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/18425611.jpg)
+![](http://ghexoblogimages.oss-cn-beijing.aliyuncs.com/18-11-14/39432050.jpg)
 
 ```Swift
     /*
